@@ -5,3 +5,52 @@ git commit -m 'commit'
 git add*
 git diff filename
 git log <filename>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+privatebranch 1 -------------
+I                            I
+I                            I 
+I                            I
+master----------release------master-------master--------release
+I                                           I
+I                                           I pull and merge
+I
+privatebranch 2
+
+
+
