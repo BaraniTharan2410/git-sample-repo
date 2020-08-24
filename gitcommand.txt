@@ -5,6 +5,7 @@ git commit -m 'commit'
 git add*
 git diff filename
 git log <filename>
+=======
 git checkout -b privatebranch1
 git pull
 git push origin master
@@ -29,3 +30,14 @@ PEOPLE2:pull from master to private branch and then merge code to master
 scenario3:
 1 person 2 different features
 work on different branches
+
+
+privatebranch 1 -------------
+I                            I
+I                            I 
+I                            I
+master----------release------master-------master--------release
+I                                           I
+I                                           I pull and merge
+I
+privatebranch 2
