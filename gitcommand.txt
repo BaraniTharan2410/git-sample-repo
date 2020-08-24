@@ -5,3 +5,27 @@ git commit -m 'commit'
 git add*
 git diff filename
 git log <filename>
+git checkout -b privatebranch1
+git pull
+git push origin master
+git checkout privatebranch1
+git branch
+why to create branches: 
+scenario1:
+first release: done
+second release:
+          2 feature
+		  2 people
+third release:
+          1 feature
+		  1 people
+scenario2:
+two people
+people1: enhance the automation framework
+people2: automating testcases
+assume he changes getName()
+people1:MERGE CODE TO MASTER
+PEOPLE2:pull from master to private branch and then merge code to master
+scenario3:
+1 person 2 different features
+work on different branches
